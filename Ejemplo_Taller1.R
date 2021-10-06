@@ -1,6 +1,6 @@
 ##
 ## Three genes
-##
+##(https://genoplotr.r-forge.r-project.org/screenshots.php)
 ## Load library & data
 library(genoPlotR)
 data("three_genes")
