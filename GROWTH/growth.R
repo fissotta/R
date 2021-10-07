@@ -1,5 +1,13 @@
 # install.packages("growthcurver")
 # install.packages("reshape2")
+
+install.packages("dplyr")
+install.packages("reshape2")
+install.packages("ggplot2")
+install.packages("growthcurverr")
+install.packages("purrr")
+
+
 library(dplyr)
 library(reshape2)
 library(ggplot2)
