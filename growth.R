@@ -6,6 +6,9 @@ library(ggplot2)
 library(growthcurver)
 library(purrr)
 
+#https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1016-7
+#https://cran.r-project.org/web/packages/growthcurver/vignettes/Growthcurver-vignette.html
+
 
 ######################
 # Dataset ejemplo OD #
@@ -59,7 +62,7 @@ ggplot(df.final, aes(x=time, y=od)) + geom_point(aes(), alpha=0.5) + geom_line(a
 
 
 ##############################
-# Dataset ejemplo cell count #
+# Dataset Dilanaz cell count #
 ##############################
 
 
